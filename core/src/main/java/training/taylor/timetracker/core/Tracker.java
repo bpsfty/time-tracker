@@ -9,7 +9,7 @@ import java.util.List;
 @Component
 public class Tracker {
     @Autowired
-    private List<TimeEntry> entries2;//added 2 for build failure
+    private List<TimeEntry> entries;
 
     public void add(TimeEntry entry) {
         entries.add(entry);
